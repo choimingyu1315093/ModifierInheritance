@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
                 Spacer(modifier = Modifier.height(10.dp))
                 InfoCard("두번째", modifier = Modifier.shadow(4.dp, RoundedCornerShape(8.dp)).background(Color.White))
                 Spacer(modifier = Modifier.height(10.dp))
-                InfoCard("세번째")
+                InfoCard("세번째", modifier = Modifier.shadow(10.dp, RoundedCornerShape(20.dp)).background(Color.Blue))
             }
         }
     }
